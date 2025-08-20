@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>ToDo list <a href="{% url 'tasks:task-form' %}" class="btn btn-primary float-end">Add Task</a>
+</h1>
+    {% for task in tasks %}
+
+  <div class="card mb-3 p-3">
+      <h3>{{ task.content }}</h3>
+
+        <form action="{% url 'tasks:task-toggle' task.pk %}" method="post" style="display:inline;">
+            {% csrf_token %}
+            {% if task.is_done %}
+                <button type="submit" class="btn btn-secondary btn-sm float-end">Undo</button>
+            {% else %}
+                <button type="submit" class="btn btn-success btn-sm float-end">Complete</button>
+            {% endif %}
+        </form>
+
+      <p>{{ task.created_datetime }}
+          {% if task.deadline %}
+            <span class="text-danger">Deadline: {{ task.deadline }}</span>
+          {% endif %}
+      </p>
+
+      <p>
+        {% if task.tags.all %}
+            {% for tag in task.tags.all %}
+                Tags: {{ tag.name }}{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        {% endif %}
+      </p>
+
+    <div class="float-end">
+      <a href="{% url 'tasks:task-update' task.pk %}" class="btn btn-primary btn-sm">Update</a>
+      <a href="{% url 'tasks:task-delete' task.pk %}" class="btn btn-danger btn-sm">Delete</a>
+    </div>
+
+  </div>
+{% endfor %}
+{% endblock %}

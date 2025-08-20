@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9d3fbf4-d1f0-47bd-bc4c-8d2ffe6b8770" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f9add2ca-8c85-466f-b8bc-56ae8cc689b0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f9add2ca-8c85-466f-b8bc-56ae8cc689b0/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/django-todo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_todo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_todo/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_todo/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_todo/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_todo/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tasks/tag_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tasks/tag_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tasks/tag_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tasks/task_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tasks/task_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tasks/task_list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="31Xhn6h5v0uAep3rNGQYe7uniiz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "develop",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Mate\django-todo\static\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="django-todo" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django-todo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9d3fbf4-d1f0-47bd-bc4c-8d2ffe6b8770" name="Changes" comment="" />
+      <created>1755676488743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755676488743</updated>
+      <workItem from="1755676489785" duration="11198000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
